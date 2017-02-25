@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+# coding=gbk
+
+a = raw_input("输入候选餐厅No.1")
+b = raw_input("输入候选餐厅No.2")
+c = raw_input("输入候选餐厅No.3")
+
+x = [a,b,c]
+
+import random
+
+
+
+print "吃饭去啦！"+random.choice(x)+"，是命中注定！"
